@@ -150,6 +150,13 @@ fun TataLetakBoxColumnRow(modifier: Modifier) {
             contentAlignment = Alignment.Center
         ) {
 
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
+
+
         }
     }
 }
