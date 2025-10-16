@@ -33,6 +33,7 @@ fun TataLetakColumn(modifier: Modifier) {
     }
 }
 
+//3: composable Row (fillMaxWidth + SpaceEvenly)
 @Composable
 fun TataLetakRow(modifier: Modifier) {
     Row(
