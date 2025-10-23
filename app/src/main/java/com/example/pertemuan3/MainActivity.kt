@@ -10,6 +10,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.myuipertama.ActivitasPertama
 import com.example.pertemuan3.ui.theme.Pertemuan3Theme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
             Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // Ganti Greeting dengan layout utama kamu
-                    TataLetakBoxColumnRow(
+                    ActivitasPertama(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -29,11 +30,4 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// Optional: Preview untuk tampilkan di Android Studio
-@Preview(showBackground = true)
-@Composable
-fun TataLetakPreview() {
-    Pertemuan3Theme {
-        TataLetakBoxColumnRow(modifier = Modifier)
-    }
-}
+
